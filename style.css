@@ -1,5 +1,14 @@
 /* Basislayout */
 
+.titel-plaat {
+  border:solid 2px #ff0000;
+width:640px;
+margin:auto;
+
+}
+
+
+
 html, body {
     height: 100%;
     padding: 0;
