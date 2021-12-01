@@ -1,13 +1,21 @@
-/* Basislayout */
 
-.titel-plaat {
-  border:solid 2px #ff0000;
-width:640px;
-margin:auto;
+/* Basislayout */
+.titel-plaat{
+  border: solid 2px red;
+  width: 40%;
+  
 
 }
 
+.tekst-border{
+  border: solid 2px red;
+  float: right;
+  width: 56%;
+  height: 200px;
+  margin-top: -210px;
+  
 
+}
 
 html, body {
     height: 100%;
