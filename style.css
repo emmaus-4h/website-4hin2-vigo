@@ -7,7 +7,7 @@
 
 }
 
-.tekst-border{
+.tekst-plaat{
   border: solid 2px red;
   float: right;
   width: 56%;
@@ -15,6 +15,23 @@
   margin-top: -210px;
   
 
+}
+
+.land-informatie{
+   border: solid 2px red;
+  float: left;
+  width: 40%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.foto-suriname{
+  border: solid 2px red;
+  float: right;
+  width: 56%;
+  height: 200px;
+  margin-top: 10px;
+  
 }
 
 html, body {
