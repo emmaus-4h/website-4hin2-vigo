@@ -2,7 +2,7 @@
 /* Basislayout */
 .titel-plaat{
   border: solid 2px red;
-  width: 40%;
+  width: 20%;
   
 
 }
@@ -10,7 +10,7 @@
 .tekst-plaat{
   border: solid 2px red;
   float: right;
-  width: 56%;
+  width: 76%;
   height: 200px;
   margin-top: -210px;
   
@@ -34,6 +34,23 @@
   
 }
 
+
+.surinamen-sport{
+   border: solid 2px red;
+  float: left;
+  width: 40%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.foto-sport{
+  border: solid 2px red;
+  float: right;
+  width: 56%;
+  height: 200px;
+  margin-top: 10px;
+}
+.
 html, body {
     height: 100%;
     padding: 0;
@@ -46,7 +63,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1440px;
     position: relative;
 }
 
