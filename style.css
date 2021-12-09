@@ -11,17 +11,7 @@
 
 .titel-plaat{
   border: solid 2px red;
-  width: 20%;
-  
-
-}
-
-.tekst-plaat{
-  border: solid 2px red;
-  float: right;
-  width: -70%;
-  height: 200px;
-  margin-top: -210px;
+  width: 100%;
   
 
 }
@@ -29,20 +19,37 @@
 .land-informatie{
    border: solid 2px red;
   float: left;
-  width: 40%;
+  width: -40%;
   height: 500px;
   margin-top: 10px;
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  font-size: 18px;
+
 }
 
 .foto-suriname{
   border: solid 2px red;
-  float: right;
+  float: left;
   width: 56%;
   height: 500px;
   margin-top: 10px;
   
 }
-.foto-suriname img {
+.tekst-informatie{
+ border: solid 2px rgb(255, 0, 0);
+  float: right;
+  width: 25%;
+  height: 500px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  font-size: 18px;
+}
+.foto-
+suriname img {
   width:100%;
 }
 
