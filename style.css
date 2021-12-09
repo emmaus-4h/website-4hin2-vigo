@@ -1,5 +1,14 @@
+/* Basis instellingen */
+* {
+   overflow: hidden; /* alle boxen zo hoog als wat erin zit */
+   box-sizing: border-box;
+}
+
+
+
 
 /* Basislayout */
+
 .titel-plaat{
   border: solid 2px red;
   width: 20%;
@@ -10,7 +19,7 @@
 .tekst-plaat{
   border: solid 2px red;
   float: right;
-  width: 76%;
+  width: -70%;
   height: 200px;
   margin-top: -210px;
   
@@ -21,7 +30,7 @@
    border: solid 2px red;
   float: left;
   width: 40%;
-  height: 200px;
+  height: 500px;
   margin-top: 10px;
 }
 
@@ -29,29 +38,32 @@
   border: solid 2px red;
   float: right;
   width: 56%;
-  height: 200px;
+  height: 500px;
   margin-top: 10px;
   
 }
+.foto-suriname img {
+  width:100%;
+}
 
-
-.surinamen-sport{
-   border: solid 2px red;
+.surinamen-sport {
+     border: solid 2px red;
   float: left;
   width: 40%;
-  height: 200px;
+  height: 450px;
   margin-top: 10px;
 }
 
-.foto-sport{
-  border: solid 2px red;
+.foto-sport {
+    border: solid 2px red;
   float: right;
   width: 56%;
-  height: 200px;
+  height: 450px;
   margin-top: 10px;
 }
-.
+
 html, body {
+    overflow: visible;
     height: 100%;
     padding: 0;
     background-color: rgb(255, 255, 255);  
