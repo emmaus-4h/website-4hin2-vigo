@@ -48,10 +48,7 @@
   font-variant: normal;
   font-size: 18px;
 }
-.foto-
-suriname img {
-  width:100%;
-}
+
 
 .surinamen-sport {
      border: solid 2px red;
@@ -61,6 +58,12 @@ suriname img {
   margin-top: 10px;
 }
 
+.video{
+  width: 300px;
+  height: 200px;
+float: centre;
+
+}
 .foto-sport {
     border: solid 2px red;
   float: right;
