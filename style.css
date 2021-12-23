@@ -11,11 +11,18 @@
 
 .titel-plaat{
   border: solid 2px red;
-  width: 100%;
+  width: max;
   
 
 }
-
+.foto-vlag-1{
+  width: 100%;
+  height: 300px;
+}
+.foto-vlag-2{
+  width: 100%;
+  height: 100%;
+}
 .land-informatie{
    border: solid 2px red;
   float: left;
