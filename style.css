@@ -69,8 +69,12 @@ border: 3px solid red;
      border: solid 2px red;
   float: left;
   width: 40%;
-  height: 450px;
-  margin-top: 10px;
+  height: 650px;
+  margin-top: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  font-size: 18px;
 }
 
 .video{
@@ -84,8 +88,104 @@ float: centre;
   float: right;
   width: 56%;
   height: 450px;
-  margin-top: 10px;
+  margin-top: 100px;
 }
+
+
+.surinamen-eten{
+       border: solid 2px red;
+  float: left;
+  width: 40%;
+  height: 450px;
+  margin-top: auto;
+    font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  font-size: 18px;
+}
+.foto-eten-1{
+  border: solid 2px red;
+  float: right;
+  width: 50%;
+  height: 460px;
+  margin-top: auto;
+    font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  font-size: 18px;
+}
+
+.informatie-taal{
+border: solid 2px red;
+  float: left;
+  width: 40%;
+  height: 455px;
+  margin-top: auto;
+    font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  font-size: 18px;
+}
+
+.button-voetbal{
+  text-align: center;
+  margin-top: 360px;
+
+}
+
+.button-1{
+  border: 1px solid #ff0000;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.taalfilmpje{
+    border: solid 2px red;
+  float: right;
+  width: 50%;
+  height: 460px;
+  margin-top: auto;
+   font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  font-size: 18px;
+}
+
+.Geschiedenis-kort-samengevat{
+  border: solid red;
+  float: left;
+  width: 40%;
+  height: 497px;
+  margin-top: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  font-size: 18px;
+
+}
+
+.Slavernij-Suriname{
+  border: solid 2px red;
+  float: right;
+  width: 50%;
+  height: 500px;
+  margin-top: auto;
+}
+
+.btn1{
+  color: rgb(255, 0, 0);
+}
+
+
+
 
 html, body {
     overflow: visible;
@@ -113,6 +213,11 @@ article {
 header {
     color: rgb(255, 0, 0);
     text-align: center;
+    font-family: monospace;
+    font-style: unset;
+    font-size: 300%;
+    font-weight: bold;
+
 }
 
 
@@ -146,26 +251,33 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin: min;
     padding: 0;
     background-color: #000000;
     overflow: hidden;
+    width: auto;
+    float: left;
 }
 
 nav ul li {
     float: left;
+    font-style: initial;
 }
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: rgb(255, 255, 255);
+    font-family: monospace;
+    font-style: unset;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: green;
 }
 
 nav li a.active {
